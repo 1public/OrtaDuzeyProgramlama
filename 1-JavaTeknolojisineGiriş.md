@@ -111,13 +111,12 @@ Makinadaki komut seti işlemci mimarisine ve işletim sistemine göre değişmek
 Bu durumda derlenip bağlanarak yürütülebilir hale getirilen programlar sadece işlem yapılan makina üzerinde mi çalışacaktır?
 
 ## Java'nın Çalışma Prensibi Nasıldır
-1. Yazılan java kodu önce compiler(javac) ile derlenerek bytecode'a (.class)
+1. Yazılan java kodu önce compiler(javac) ile derlenerek bytecode'a (.class) dönüştürülür
 2. Ardından bytecode Java Virtual Machine (JVM) ile tüm platformlarda kodu çalışacak hale getirir (makine diline dönüşür)
-3. 
-4. 
 
 
 
+![image H1RQ01](https://user-images.githubusercontent.com/113630029/222278389-b55ab0fb-35dd-4e42-9854-afef0afd78be.png)
 
 
 
