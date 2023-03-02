@@ -26,7 +26,7 @@ Başarılı bir programlama için aşağıdaki adımlar izlenmelidir:
 - Dayanıklılık(Robustness): Program iyi yönde bile olsa kendinden beklenmeyen işlemler yapmamalı
 - Genişleyebilme(Extendibility): İleri aşamalarda projede değişiklik veya ilave işlemler yapılabilmeli
 - Tekrar Kullanma(Reusability): Bir projede kullanılan elemanlar başka bir projedede kulanılabilmeli
-- Uygunluk(Compatibility): Farklı bilgisayar sistemlerinde aynı ortak özelliklere sahip olunmas
+- Uygunluk(Compatibility): Farklı bilgisayar sistemlerinde aynı ortak özelliklere sahip olunması
 - Kaynakların Kullanımı (Efficiency): Bir yazılımın belirlenen şartlar altında kullanılan kaynakların miktarına bağlı olarak uygun performansı sağlaması
 
 # Programlama Dillerinin Seviyeleri ve Özellikleri
@@ -35,9 +35,9 @@ Başarılı bir programlama için aşağıdaki adımlar izlenmelidir:
 çalışmasına daha yakındır.
 - Üst seviyeli diller donanıma en uzak dillerdir. Hatta donanım hakkında hiç bir bilgi bilmeyi bile gerektirmez. Hazır
 kütüphanesi, sınıfı ve fonksiyonu vardır (Java, C#, Delphi)
-- Orta Seviyeli diller hem donanıma hitap eder, hem de uygulama geliştirme de kullanılır. Aslında daha çok uygulama programları ile makine arasında aracı görevi görür(C, C++). Orta Seviyeli diller Alt seviyeli diller ile yazılır(C dili, Makine Kodu ve Assembly ile; Java Runtime, Net Framework de C)
+- Orta Seviyeli diller hem donanıma hitap eder, hem de uygulama geliştirme de kullanılır. Aslında daha çok uygulama programları ile makine arasında aracı görevi görür(C, C++). Orta Seviyeli diller Alt seviyeli diller ile yazılır(C dili, Makine Kodu ve Assembly ile; Java Runtime, Net Framework ve C)
 - Alt seviyeli diller donanıma en yakın dillerdir. Donanım hesaba katılarak programlama yapılır. Daha fazla programcılık becerisi gerektirir (Assembly, Makine Kodu)
--  Programla dillerinde seviye yükseldikçe programcının kod yazma işi de kolaylaşır
+-  Programla dillerinde seviye yükseldikçe programcının kod yazma işide kolaylaşır
 -  Bilgisayarlar en temelde 0 ve 1 ’lerden oluşan kodları anlayabilmektedirler Bir programcı yüksek seviyeli bir dilde kod yazdığında bu kodların bilgisayar tarafından yorumlanıp çalıştırılması için o kodların makine dilene çevrilmesi gereklidir.
 
 # Bilgisayar Programlarının Çalışma Prensibi
