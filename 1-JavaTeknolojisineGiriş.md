@@ -179,4 +179,4 @@ için
 - Fonksiyonlar programın işlevlerini gerçekleştirir
 - Java programlarının başlangıç noktası main() fonksiyonudur
 
-> Java dili ile programlama yapabilmek için "JDK" ve "IDE" kurulmalıdı
+> Java dili ile programlama yapabilmek için "JDK" ve "IDE" kurulmalıdır
