@@ -85,14 +85,14 @@ Java’da derleyici ve yorumlayıcı beraber çalışır. Yani, önce oluşturul
 
 JVM çalışan her makinede bytecode’larımız sorunsuz çalışacaktır. İkinci avantajı ise Java bytecode’umuz bir sanal makine üzerinde çalıştığı için kötü amaçlı programlara karşı koruma sağlayan bir güvenlik katmanı ile korunmuş oluruz.
 
-Java bytecode ve java yorumlayıcısı sadece Java dilinde kullanılmaz. Örnek olarak, Jython’u Python dilinden Java bytecode’una derlemek için kullanabiliriz ve daha sonra da yorumlamak için java‘yı kullanabiliriz. 
+Java bytecode ve java yorumlayıcısı sadece Java dilinde kullanılmaz. Örnek olarak, Python’u Python dilinden Java bytecode’una derlemek için kullanabiliriz ve daha sonra da yorumlamak için java‘yı kullanabiliriz. 
 
 # Java Programlama Dili
 
 Java, Sun Microsystems mühendislerinden James Goslingfikri;
 - C++’da bir program yazdığınızda, 10 tane cihazınız varsa her seferinde derleyip yazmak zorunda
 kalınıyordu.
-- O zaman bununla uğraşacağıma üstene yorumlayıcı bir dil yazılsın. Programcılar ilgili programı ortak yazsın işlemciye göre çevirme işini Java Sanal Makinesi yapsın denmiştir.
+- O zaman bununla uğraşacağıma yorumlayıcı bir dil yazılsın. Programcılar ilgili programı ortak yazsın işlemciye göre çevirme işini Java Sanal Makinesi yapsın denmiştir.
 Bu fikirden sonra javanın temelleri atılmaya başlanmıştır
 
 ## Neden Java ?
@@ -106,9 +106,8 @@ Bu fikirden sonra javanın temelleri atılmaya başlanmıştır
 
 ## Java Sanal Makinesi (Java Virtual Machine)
 
-Birçok programlama dilinde derlenen program, bu işlemin gerçekleştirildiği makinedaki komut setine göre bağlanır.
-Makinadaki komut seti işlemci mimarisine ve işletim sistemine göre değişmektedir.
-Bu durumda derlenip bağlanarak yürütülebilir hale getirilen programlar sadece işlem yapılan makina üzerinde mi çalışacaktır?
+- Birçok programlama dilinde derlenen program, bu işlemin gerçekleştirildiği makinedeki komut setine göre bağlanır.
+- Makinedaki komut seti işlemci mimarisine ve işletim sistemine göre değişmektedir.
 
 ## Java'nın Çalışma Prensibi Nasıldır
 1. Yazılan java kodu önce compiler(javac) ile derlenerek bytecode'a (.class) dönüştürülür
