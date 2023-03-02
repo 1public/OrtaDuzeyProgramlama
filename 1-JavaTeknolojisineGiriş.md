@@ -1,7 +1,7 @@
 # Bilgisayar Programları Nasıl Çalışır
 1. Bilisayar programları kullanıcıdan giriş alır
 2. Bu girişlere göre veriler üzerinde işlemler yapılır
-3. Gerekliyse bu sonuçlar ara yüzde gösterilir
+3. Gerekliyse bu sonuçlar arayüzde gösterilir
 
 # Program Nedir ?
  Program, günlük hayatta bir sorunu bilgisayar ile çözmek, rutin işlemleri kolaylaştırmak için yazılan kodlardır
